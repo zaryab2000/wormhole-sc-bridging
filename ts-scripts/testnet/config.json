@@ -1,7 +1,15 @@
 {
-  "sourceChain": 6,
-  "targetChain": 14,
+  "sourceChain": 5,
+  "targetChain": 10002,
   "chains": [
+    {
+      "description": "Sepolia - Ethereum",
+      "chainId": 10002,
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/DRmUksB7noeiJCV60ibaV1JXdKpwkSeC",
+      "tokenBridge": "0xDB5492265f6038831E89f495670FF909aDe94bd9",
+      "wormholeRelayer": "0x7B1bD7a6b4E61c2a123AC6BC2cbfC614437D0470",
+      "wormhole": "0x4a8bc80Ed5a4067f1CCf107057b8270E0cC11A78"
+    },
     {
       "description": "Goerli - Ethereum",
       "chainId": 2,
@@ -37,7 +45,7 @@
     {
       "description": "Polygon Mumbai",
       "chainId": 5,
-      "rpc": "https://rpc.ankr.com/polygon_mumbai",
+      "rpc": "https://rpc-mumbai.maticvigil.com/",
       "tokenBridge": "0x377D55a7928c046E18eEbb61977e714d2a76472a",
       "wormholeRelayer": "0x0591C25ebd0580E0d4F27A82Fc2e24E7489CB5e0",
       "wormhole": "0x0CBE91CF822c73C2315FB05100C2F714765d5c20"
