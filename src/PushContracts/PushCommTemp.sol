@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.20;
 
 import {TokenBase, TokenSender} from "wormhole-solidity-sdk/WormholeRelayerSDK.sol";
 import "wormhole-solidity-sdk/interfaces/IERC20.sol";
